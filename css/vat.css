@@ -1,0 +1,384 @@
+
+img {
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    border: none;
+}
+
+.banner .m_slide,
+.banner .m-banner,
+.ny_banner .m_nybanner {
+    display: none;
+}
+
+/*! CSS Used from: http://www.edsvat.com/views/default/css/base.css ; media=all */
+@media all {
+    a {
+        background: transparent;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+        color: #333;
+    }
+
+    a:focus,
+    a:hover {
+        color: #1A1E65;
+        text-decoration: none;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+
+    img {
+        border: 0;
+        vertical-align: middle;
+        max-width: 100%;
+        border: none;
+    }
+
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+        margin: 0 10px;
+    }
+
+    ul,
+    li,
+    dl,
+    dd {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    ul {
+        list-style: none outside none;
+    }
+
+    .container {
+        max-width: 1200px;
+        width: 96%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    @media (max-width: 1200px) {
+        .container {
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    @media (max-width: 1025px) {
+        .container {
+            width: 96%;
+            margin: 0 auto;
+        }
+    }
+}
+
+/*! CSS Used from: http://www.edsvat.com/views/default/css/detail.css ; media=all */
+@media all {
+    .mian-page {
+        overflow: hidden;
+        padding: 30px 0;
+    }
+
+    .ny_mian .content {
+        padding: 15px 0;
+        color: #333;
+        line-height: 1.8;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .ny_mian .title {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .ny_mian .title h2 {
+        width: auto;
+        height: 50px;
+        line-height: 50px;
+        float: left;
+        font-size: 22px;
+        color: #f60;
+    }
+
+    .ny_mian .title span {
+        width: auto;
+        color: #666;
+        height: 50px;
+        line-height: 50px;
+        float: right;
+        background: url("/ext/www.edsvat.com/views/default/images/ny_right_tb.png") left center no-repeat;
+        text-indent: 15px;
+    }
+
+    .ny_mian .title span a {
+        color: #666;
+    }
+
+    .ny_mian .title span a:hover {
+        color: #f60;
+    }
+
+    .show_pro_list {
+        overflow: hidden;
+        border-bottom: 3px solid #f60;
+        margin-bottom: 30px;
+    }
+
+    .show_pro_list li {
+        float: left;
+        width: 16.6666%;
+        padding: 1%;
+        opacity: 0.6;
+    }
+
+    .show_pro_list li.cur {
+        opacity: 1;
+    }
+
+    .show_pro_list li .img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        text-align: center;
+        margin: 0 auto;
+        border: 1px solid #f60;
+    }
+
+    .show_pro_list li .img img {
+        height: 100%;
+        text-align: center;
+    }
+
+    .show_pro_list li .tit {
+        text-align: center;
+        line-height: 3;
+        font-size: 16px;
+    }
+
+    .show_pro_list li a:hover .tit {
+        color: #f60;
+    }
+
+    .show-box {
+        overflow: hidden;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+
+    .show-box .responsive {
+        width: 30.333333%;
+        float: left;
+        padding: 0 15px 50px;
+        height: 250px;
+        position: relative;
+        background: #f60;
+        box-sizing: initial;
+    }
+
+    .show-box .responsive .tit {
+        position: absolute;
+        bottom: 15px;
+        display: block;
+        margin: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: #000;
+    }
+
+    .show-box .responsive img {
+        max-height: 90%;
+        position: absolute;
+        max-width: 90%;
+        top: -50px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .show-box .res-r {
+        width: 64.66666667%;
+        float: right;
+        padding: 0 15px;
+    }
+
+    .show-box .res-r .article-server {
+        overflow: hidden;
+        padding-top: 15px;
+        font-size: 20px;
+        color: #666;
+    }
+
+    .show-box .res-r .article-server a {
+        display: inline-block;
+        background: #f60;
+        color: #ffffff;
+        font-size: 22px;
+        padding: 0.5% 3%;
+        border-radius: 5px;
+    }
+
+    .show_page_title {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 10px 0 15px;
+        font-weight: 600;
+        margin-top: 25px;
+        color: #f60;
+        border-bottom: 1px solid #e6e6e6;
+        padding-bottom: 10px;
+    }
+
+    .pro_wrap,
+    .pro_wrap2 {
+        overflow: hidden;
+    }
+
+    .new_vatwz1_c {
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        background: #f4f3f3;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+    .new_vatwz1_c dl.proxxd6 {
+        width: 100%;
+        height: auto;
+        float: left;
+        padding: 0 20px 0 50px;
+        box-sizing: border-box;
+        background: url("/ext/www.edsvat.com/views/default/images/pro_xx_wt_tb_1.png") 20px 15px no-repeat #fff;
+        margin-bottom: 10px;
+    }
+
+    .new_vatwz1_c dl.proxxd6 dt {
+        background: url("/ext/www.edsvat.com/views/default/images/pro_xx_wt_tb_2.png") right center no-repeat;
+        overflow: hidden;
+    }
+
+    .new_vatwz1_c dl.proxxd6 dt h3 {
+        width: calc(100% - 60px);
+        height: 50px;
+        line-height: 50px;
+        float: left;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .new_vatwz1_c dl.proxxd6 dd {
+        width: 100%;
+        height: auto;
+        line-height: 24px;
+        float: left;
+        font-size: 14px;
+        color: #202020;
+        display: none;
+    }
+
+    .new_vatwz1_c dl.proxxd6.cur dd {
+        display: block;
+    }
+
+    .new_vatwz1_c dl.proxxd6.cur {
+        padding: 10px 20px 20px 50px;
+        background: url("/ext/www.edsvat.com/views/default/images/pro_xx_wt_tb_1.png") 20px 28px no-repeat #fff;
+    }
+
+    @media (max-width: 1025px) {
+        .show_pro_list li {
+            width: 25%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .show-box .responsive {
+            width: 100%;
+            text-align: center;
+            padding: 0;
+            position: initial;
+            height: auto;
+            padding-bottom: 30px;
+        }
+
+        .show-box .res-r {
+            width: 100%;
+            position: initial;
+            padding-top: 15px;
+        }
+
+        .show-box .responsive .tit {
+            position: initial;
+        }
+
+        .show-box .responsive .tit h1 {
+            margin: 15px;
+        }
+
+        .show-box .responsive img {
+            position: initial;
+            max-width: 400px;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .show_pro_list li .img {
+            width: 120px;
+            height: 120px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .show_pro_list li {
+            width: 33.333%;
+        }
+
+        .show_pro_list li .img {
+            width: 95px;
+            height: 95px;
+        }
+    }
+
+    @media (max-width: 420px) {
+        .show_pro_list li {
+            width: 50%;
+        }
+
+        .show-box .res-r .article-server {
+            display: none;
+        }
+
+        .show-box .responsive img {
+            max-width: 80%;
+        }
+    }
+}
